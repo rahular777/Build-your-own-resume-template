@@ -1,0 +1,271 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* animation: hover 1s linear 1 normal ; */
+
+}
+
+@keyframes hover {
+    0%{
+        width: 0px;
+    }
+    
+}
+
+#main_container{
+
+
+    margin-top: 25px;
+   
+
+    height: 30cm;
+    width: 21.0cm;
+    border: 2px solid black;
+    position: absolute;
+
+}
+.profile_holder{
+    transform: translate(10px,10px);
+    height: 100px;
+    width: 330px;
+   
+
+
+}
+
+.image{
+    background-color:#1a79b8;
+    height: 300px;
+}
+.skills{
+    background-color:rgba(3, 1, 1, 0.718);
+    height:820px;
+    position: absolute;
+    width: 8.74cm;
+    /* display: flex; */
+
+}
+
+.img_holder{
+     position: relative;
+     top: 15px;
+     left: 83px;
+    height:150px;
+    width: 150px;
+    border: 1px solid none;
+    border-radius: 100px;
+
+}
+
+.photo{
+    position: relative;
+    height: 150px;
+    width: 150px;
+border-radius: 100px;
+
+}
+
+.p1{
+    position: absolute;
+    top: 140px;
+    left: 5px;
+    color: white;
+
+    font-size: 25px;
+    font-weight: bold;
+}
+.p2{
+    position: absolute;
+    top:180px ;
+    left: 10px;
+    color: white;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+.git{
+   position: relative;
+   top: 70px;
+   right: 70px;
+   transform: scale(0.8);
+   
+}
+
+.git-id{
+    position: relative;
+    top: 25px;
+    right: 40px;
+    color: white;
+}
+
+.linkedin{
+    transform: scale(0.8);
+    position: relative;
+    bottom: 15px;
+    left: 100px;
+}
+
+.linkedin-id{
+    position: relative;
+    bottom: 60px;
+    left: 130px;
+}
+
+.skills>h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 15px;
+    border-bottom: 1px solid white;
+    height: 30px;
+    width: 8cm;
+}
+
+.skills>p{
+    color: white;
+    position: relative;
+    left: 15px;
+    transform: translate(30px,20px);
+}
+
+.skill-type{
+    /* border: 1px solid white; */
+    position: relative;
+    top: 25px;
+    left: 35px;
+    width: 7cm;
+    height: 11.5cm;
+}
+
+.html{
+    height: 5px;
+    width:6cm;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    background-color:white ;
+    
+}
+
+.html>div{
+    height:5px;
+    width:5.8cm;
+    background-color: #1a79b8;
+}
+
+.css{
+    height: 5px;
+    width:6cm;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    background-color:white ;
+    
+}
+
+.css>div{
+    height:5px;
+    width: 5.5cm;
+    background-color: #1a79b8;
+}
+
+.java-script{
+    height: 5px;
+    width:6cm;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    background-color:white ;
+    
+}
+
+.java-script>div{
+    height:5px;
+    width: 5cm;
+    background-color: #1a79b8;
+}
+
+.java{
+    height: 5px;
+    width:6cm;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    background-color:white ;
+    
+}
+
+.java>div{
+    height:5px;
+    width: 5.6cm;
+    background-color: #1a79b8;
+}
+.t-css{
+    height: 5px;
+    width:6cm;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    background-color:white ;
+    
+}
+
+.t-css>div{
+    height:5px;
+    width: 5cm;
+    background-color: #1a79b8;
+}
+
+.c{
+    height: 5px;
+    width:6cm;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    background-color:white ;
+    
+}
+
+.c>div{
+    height:5px;
+    width: 5.5cm;
+    background-color: #1a79b8;
+}
+
+.certi{
+    transform: scale(0.5);
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    bottom: 60px;
+    left: 130px;
+}
+
+.list{
+    position: relative;
+    bottom: 80px;
+    right: 5px;
+    color: white;
+}
+
+
+#information-container{
+    height: 29cm;
+    width: 12cm;
+    position: absolute;
+    /* border: 1px solid black; */
+    left: 9cm;
+    bottom: 25px;
+}
+
+#information-container>h1{
+    
+        color:#1a79b8;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        left: 15px;
+        border-bottom: 2px solid black;
+        height: 30px;
+        width: 11cm;
+}
+
+#information-container>p{
+    text-align:center
+}
